@@ -1,0 +1,32 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+    "incremental": true,
+    "composite": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "target": "ES5",
+    // "lib": [],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "module": "ESNext",
+    "rootDir": ".",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "outDir": "./lib",
+    "removeComments": true,
+    "importHelpers": true,
+    "declarationDir": "./lib/types",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "allowUnreachableCode": false,
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "rollup-libdev-template",
+  "version": "1.0.0",
+  "description": "基于 Rollup 的库开发初始模板",
+  "type": "module",
+  "main": "./lib/index.cjs.js",
+  "module": "./lib/index.esm.js",
+  "browser": "./lib/index.umd.js",
+  "types": "./lib/types",
+  "scripts": {
+    "dev": "pnpm clean && rollup -c -w --configPlugin typescript",
+    "build": "pnpm clean && rollup -c --configPlugin typescript",
+    "clean": "rm -rf lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "HduSy <bilisantu@gmail.com>",
+  "homepage": "https://github.com/MeiDragon/rollup-libdev-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeiDragon/rollup-libdev-template"
+  },
+  "bugs": {
+    "url": "https://github.com/MeiDragon/rollup-libdev-template/issues"
+  },
+  "keywords": [
+    "template",
+    "rollup"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.9.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
