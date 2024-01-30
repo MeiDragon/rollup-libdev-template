@@ -7,7 +7,7 @@
     "composite": true,
     "tsBuildInfoFile": "./.tsbuildinfo",
     "target": "ES5",
-    // "lib": [],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "lib": ["ESNext", "DOM"],
     "module": "ESNext",
     "rootDir": ".",
     "moduleResolution": "Node",
