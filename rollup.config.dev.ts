@@ -17,12 +17,13 @@ export default defineConfig({
     {
       dir: undefined,
       format: 'umd',
-      file: './lib/index.umd.js',
-      name: 'Vue3Hooks'
+      name: 'LibName',
+      file: './lib/index.umd.js'
     },
     {
       dir: undefined,
       format: 'iife',
+      name: 'LibName',
       file: './lib/index.min.js',
     },
   ],
