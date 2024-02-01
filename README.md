@@ -12,6 +12,7 @@
 |@rollup/plugin-terser|Generate a minified output bundle with terser|https://github.com/rollup/plugins/tree/master/packages/terser|
 |@rollup/plugin-typescript|Integration between Rollup and Typescript|https://github.com/rollup/plugins/tree/master/packages/typescript|
 |@rollup/plugin-commonjs|Convert CommonJS modules to ES6|https://github.com/rollup/plugins/tree/master/packages/commonjs|
+|rollup-plugin-visualizer|Visuallize your bundle|https://github.com/btd/rollup-plugin-visualizer|
 |@rollup/plugin-xxx|xxx|xxx|
 ## 测包流程 🚧
 包项目中，`pnpm link --global`   
